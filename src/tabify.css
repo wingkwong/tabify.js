@@ -1,0 +1,27 @@
+/**                                                              
+ * tabify.css
+ * @author Wing Kam Wong - wingkwong.code@gmail.com
+ * @version - 0.1.0
+ */
+ 
+.tabify-tab {
+	background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 0px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.tabify-pane {
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+.tabify-pane.active {
+	display: block;
+}
